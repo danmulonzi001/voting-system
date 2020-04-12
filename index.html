@@ -12,32 +12,33 @@
 </header>
 
     <body>
-
-        <div class="imgcontainer">
-            <img class="kenyaImg" src="kenya.jpg" alt="" width="50%">
-        </div>
-
         <div class="container">
+
+            <div class="imgcontainer">
+                <img class="kenyaImg" src="kenya.jpg" alt="" width="50%">
+            </div>
             <label for="username"><b>Username</b></label>
             <input class="username"  type="text" placeholder="Enter Username" name="username" required>
             <br>
             <label for="password"><b>ID No.</b></label>
-            <input class="pass" type="password" placeholder="Enter Password" name="password" required>   
+            <input class="pass" type="password" placeholder="Enter Password" name="password"  required>  
             <br>
             <input id="loginB" type="submit"></input>
             <br>
-            <label for="checkbox">Tick</label> 
-            <input class="checkB"  type="checkbox" checked="checked" name="remember"> Remember me      
-        </div>
-
-        <div>
-            <button  type="button" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="password.html">password?</a></span>
+            <input class="checkB"  type="checkbox" checked="checked" name="remember"> 
+            <label for="checkbox">Remember me      
+            </label> 
+    
+            <div>
+                <button  type="reset" class="cancelbtn">Cancel</button>
+                <span class="psw"> <a href="password.html">forgot password?</a> </span>
+                
+            </div>
         </div>
 
         
         <script src="voting.js"> 
-
+        
         </script>
 </body>
 

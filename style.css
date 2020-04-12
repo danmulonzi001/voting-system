@@ -8,11 +8,22 @@ body{
 .imgcontainer {
     text-align: center; 
     margin: 24px 0 12px 0;
+    
   }
   
   .kenyaImg{
     width: 50%;
     border-radius: 60%;
+  }
+  .container{
+    background-color: chartreuse;
+    border: aquamarine;
+    border-style: dotted;
+    border-radius: 2px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
 h1{
@@ -73,3 +84,4 @@ form {
        width: 100%;
     }
   }
+  

@@ -11,15 +11,58 @@ body{
     text-align: center; 
     margin: 24px 0 12px 0;
   }
-  
+  .container{
+    background-color: tan;
+
+  }
   img.vote {
     width: 40%;
     border-radius: 50%;
   }
 legend{
     text-align: center;
-    color: red;
+    color: rgb(19, 17, 17);
 }
 label{
     align-items: center;
+    display: inline-block;
+}
+label{
+  text-transform: capitalize;
+  color: rgb(10, 9, 9);
+  font-size: 10px;
+}
+select{
+  text-transform: capitalize;
+  color: darkblue;
+  font-size: 10px;
+}
+.date{
+  text-transform: capitalize;
+  color: chartreuse;
+  font-size: 10px;
+}
+input{
+  color: black;
+}
+main{
+  border: red;
+  background-color: tan;
+
+}
+main select{
+  text-transform: capitalize;
+  color: darkblue;
+  font-size: 10px;
+  display: inline-block;
+}
+.govenor{
+  font-size: 10px;
+  color: black;
+  
+}
+.mp{
+  font-size: 10px;
+  text-transform: capitalize;
+ 
 }

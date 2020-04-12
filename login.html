@@ -12,9 +12,14 @@
     </div>
     <div class="container">
         <fieldset>
-            <legend>select your county</legend>
+            <div class="date">
+                <label>
+                    voting date:
+                    <input type="date" name="voting date">
+                </label>
+            </div>
             <p>
-               <label>Select list</label>
+               <label>Select county</label>
                <select id = "myList">
                  <option value = "1">Mombasa</option>
                  <option value = "2">kwale</option>
@@ -67,6 +72,70 @@
             </p>
          </fieldset>
     </div>
+    <main>
+        <fieldset>
+            <form action="#" onsubmit="return(validate())">
+        <div class="president">
+            <label for="select president"> President</label>
+            <select name="president" id="prezzoh">
+                <option value="uhuru">uhuru</option>
+                <option value="raila">raila</option>
+                <option value="uhuru">kalonzo</option>
+                <option value="uhuru">ruto</option>
+                <option value="uhuru">mutua</option>
+            </select>   
+        </div>
+
+        <br>
+
+        <div class="governor">
+            <label>
+                governor
+                <input type="text" name="enter the name">
+            </label>
+        </div> 
+
+        <br>
+
+        <div class="senator">
+            <label>
+                senator
+                <input type="text" name="enter the name">
+            </label>
+        </div> 
+        
+        <br>
+
+        <div class="women rep">
+            <label>
+                women rep
+                <input type="text" name="enter the name">
+            </label>
+        </div> 
+
+            <br>
+
+            <div class="mp">
+                <label>
+                    MP
+                    <input type="text" name="enter the name">
+                </label>
+            </div>          
+                
+            <br>
+
+            <div class="mca">
+                <label>
+                 MCA
+                    <input type="text" name="enter the name">
+                </label>
+            </div>  
+        </form>
+            </fieldset>
+            <br>
+            <br>
+            <input type="button" onclick="alert('your vote has been submited successfully')"value="submit">
+    </main>
     
 </body>
 </html>
