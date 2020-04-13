@@ -1,0 +1,4 @@
+<label for="name">County </label> <input type="text" value="type here"><br>
+            <label for="name">Sub County </label> <input type="text" value="type here"><br>
+            <label for="name">Ward </label> <input type="text" value="type here"><br>
+                            
