@@ -1,11 +1,11 @@
 body{
-    width:50%;
+    width:40%;
     height: 50%;
     padding: 0;
     margin-top: 0;
     position: absolute;
     left: 25%;
-    border: chocolate;
+    border: rgb(238, 113, 25);
 }
 .imgcontainer {
     text-align: center; 
@@ -32,7 +32,7 @@ label{
 label{
   text-transform: capitalize;
   color: rgb(10, 9, 9);
-  font-size: 10px;
+  font-size: 23px;
   align-content: center;
   text-align: center;
   right: 50%;
@@ -40,7 +40,7 @@ label{
 select{
   text-transform: capitalize;
   color: darkblue;
-  font-size: 10px;
+  font-size: 23px;
   display: block;
   align-content: center;
   right: 50%;
@@ -48,7 +48,7 @@ select{
 .date{
   text-transform: capitalize;
   color: chartreuse;
-  font-size: 10px;
+  font-size: 23px;
 }
 input{
   color: black;
@@ -61,8 +61,9 @@ main{
 }
 main select{
   text-transform: capitalize;
+  font-size: 23px;
   color: darkblue;
-  font-size: 10px;
+  font-size: 23px;
   display: inline-block;
 }
 

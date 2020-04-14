@@ -1,0 +1,121 @@
+<div class="container">
+
+            <div class="imgcontainer">
+                <img class="kenyaImg" src="kenya.jpg" alt="" width="50%">
+            </div>
+            <label for="username"><b>Username</b></label>
+            <input class="username"  type="text" placeholder="Enter Username" name="username" required>
+            <br>
+            <label for="password"><b>ID No.</b></label>
+            <input class="pass" type="password" placeholder="Enter Password" name="password" required>  
+            <br>
+            <input id="loginB" type="submit"></input>  
+            <br>
+            <input class="checkB"  type="checkbox" checked="checked" name="remember"> 
+            <label for="checkbox">Remember me      
+            </label> 
+    
+            <div>
+                <button  type="reset" class="cancelbtn">Cancel</button>
+                <span class="psw"> <a href="password.html">forgot password?</a> </span>
+                
+            </div>
+        </div>
+
+
+
+        
+body{ 
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+}
+.imgcontainer {
+    text-align: center; 
+    margin: 24px 0 12px 0;
+    
+  }
+  
+  .kenyaImg{
+    width: 50%;
+    border-radius: 60%;
+  }
+  .container{
+    background-color: chartreuse;
+    border: aquamarine;
+    border-style: dotted;
+    border-radius: 2px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+h1{
+    color: black;
+   text-align: center;
+    text-transform: capitalize;
+    font-size: 23px;
+}
+
+form {
+  border: 3px solid black;
+  align-content: center;
+}
+
+.username .pass{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 23px;
+  }
+  
+ .loginB {
+    background-color:blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: orange;
+  }
+ 
+  .container {
+    padding: 16px;
+  }
+  
+  span.password {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  @media screen and (max-width: 300px) {
+    span.password{
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+  
